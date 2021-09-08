@@ -1,4 +1,5 @@
 import * as React from 'react';
+import {Page} from 'components/Page';
 
 /**
  * The not found content.
@@ -7,6 +8,8 @@ import * as React from 'react';
  */
 export default function NotFound(): React.ReactElement {
   return (
-    <h1>The route not found. Please return to main page.</h1>
+    <Page title="Not found">
+      <h1>The route not found. Please return to main page.</h1>
+    </Page>
   );
 }
