@@ -1,6 +1,6 @@
 import * as React from 'react';
-import {RouterProvider} from 'router';
-import {GlobalStyles} from './styled';
+import {Router} from 'router';
+import {Styles} from './styled';
 
 /**
  * The main app component.
@@ -10,8 +10,8 @@ import {GlobalStyles} from './styled';
 export default function App(): React.ReactElement {
   return (
     <React.Fragment>
-      <GlobalStyles />
-      <RouterProvider />
+      <Styles />
+      <Router />
     </React.Fragment>
   );
 }
