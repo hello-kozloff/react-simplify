@@ -3,28 +3,26 @@ import 'reset.css';
 
 /**
  * The global font styles.
+ * @return {color}
+ * @return {size}
+ * @return {weight}
+ * @return {height}
  */
 export const FontStyles = css`
-  color: inherit;
-  font-family:
-    -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', Geneva,
-    "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans Cherokee",
-    "Noto Sans Devanagari", "Noto Sans Ethiopic",
-    "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans Kannada",
-    "Noto Sans Khmer", "Noto Sans Lao",
-    "Noto Sans Osmanya", "Noto Sans Tamil", "Noto Sans Telugu",
-    "Noto Sans Thai", sans-serif, arial,
-    Tahoma, verdana;
-  font-size: inherit;
-  font-weight: normal;
-  line-height: normal;
+  color: ${({theme}) => theme.font.color};
+  font-family: ${({theme}) => theme.font.family};
+  font-size: ${({theme}) => theme.font.size};
+  font-weight: ${({theme}) => theme.font.weight};
+  line-height: ${({theme}) => theme.font.height};
 `;
 
 /**
  * The global app styles.
+ * @return {background}
  */
 export const GlobalStyles = createGlobalStyle`
   body {
     ${FontStyles};
+    background: ${({theme}) => theme.background};
   }
 `;
