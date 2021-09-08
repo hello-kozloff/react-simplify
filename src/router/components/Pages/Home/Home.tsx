@@ -2,7 +2,7 @@ import * as React from 'react';
 import {Page} from 'components/Page';
 
 /**
- * The home content.
+ * The home page.
  * @return {React.ReactElement}
  * @constructor
  */

@@ -2,7 +2,7 @@ import * as React from 'react';
 import {Page} from 'components/Page';
 
 /**
- * The not found content.
+ * The not found page.
  * @return {React.ReactElement}
  * @constructor
  */
