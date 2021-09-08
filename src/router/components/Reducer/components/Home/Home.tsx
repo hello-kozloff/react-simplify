@@ -1,4 +1,5 @@
 import * as React from 'react';
+import {Page} from 'components/Page';
 
 /**
  * The home content.
@@ -7,6 +8,8 @@ import * as React from 'react';
  */
 export default function Home(): React.ReactElement {
   return (
-    <h1>Welcome to home page!</h1>
+    <Page title="Home">
+      <h1>Welcome to home page!</h1>
+    </Page>
   );
 }
