@@ -1,4 +1,3 @@
-export {Provider as RouterProvider} from './components/Provider';
 export {Reducer as RouterReducer} from './components/Reducer';
 
 export {default as Router} from './Router';
