@@ -1,7 +1,6 @@
-export {Router} from './components/Router';
-export {Reducer} from './components/Reducer';
+export {Reducer as RouterReducer} from './components/Reducer';
 
-export {default as router} from './Router';
+export {default as Router} from './Router';
 export {default as routes} from './routes';
 
 export {

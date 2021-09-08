@@ -23,7 +23,7 @@ export const FontStyles = css`
 /**
  * The global app styles.
  */
-export const Styles = createGlobalStyle`
+export const GlobalStyles = createGlobalStyle`
   body {
     ${FontStyles};
   }
