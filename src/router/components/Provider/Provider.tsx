@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {RouterProvider} from 'react-router5';
-import {Router, RouteReducer} from 'router';
+import {Router, RouterReducer} from 'router';
 
 /**
  * The router provider.
@@ -10,7 +10,7 @@ import {Router, RouteReducer} from 'router';
 export default function Provider(): React.ReactElement {
   return (
     <RouterProvider router={Router.start()}>
-      <RouteReducer />
+      <RouterReducer />
     </RouterProvider>
   );
 }

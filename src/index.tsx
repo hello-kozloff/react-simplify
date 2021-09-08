@@ -1,8 +1,8 @@
 import * as React from 'react';
 import ReactDOM from 'react-dom';
-import {RouteProvider} from 'router';
+import {RouterProvider} from 'router';
 
 ReactDOM.render(
-    <RouteProvider />,
+    <RouterProvider />,
     document.getElementById('root'),
 );
