@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {useRoute} from 'react-router5';
-import * as pages from 'router/components/Pages';
+import * as pages from 'pages';
 import * as routes from 'router';
 
 /**
