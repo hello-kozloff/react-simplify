@@ -1,1 +1,1 @@
-export type {ID, IDObject} from './ID';
+export type {ID} from './ID';
