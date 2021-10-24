@@ -8,7 +8,7 @@ import {ColumnProps} from './types';
  * @return {React.ReactElement<ColumnProps>}
  * @constructor
  */
-function Column(
+export default function Column(
     props: ColumnProps,
 ): React.ReactElement<ColumnProps> {
   return (
@@ -17,10 +17,3 @@ function Column(
     </styled.Column>
   );
 }
-
-Column.defaultProps = {
-  variant: 'default',
-  scale: 'medium',
-};
-
-export default Column;
